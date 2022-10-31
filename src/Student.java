@@ -13,10 +13,18 @@ public class Student extends Person{
     }
 
 
+    public String getEducation() {
+        return this.education;
+    }
+
+    public int getAvgGrade() {
+        return this.avgGrade;
+    }
+
 
     @Override
     public String toString(){
-        return "\n"+id+" - "+name+" - "+mail+" - "+education+" - "+avgGrade+"\n";
+        return String.format("%1s%16s%16s%16s%16s%n", getId(), getName(), getEmail(), getEducation(), getAvgGrade());
     }
 
 }

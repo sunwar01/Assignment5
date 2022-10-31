@@ -14,7 +14,9 @@ public class Person {
     }
 
 
-
+    public String getName() {
+        return this.name;
+    }
 
     public int getId() {
         return this.id;
@@ -34,7 +36,9 @@ public class Person {
 
     @Override
     public String toString(){
-        return "\n"+id+" - "+name+" - "+mail+"\n";
+
+        return String.format("%1s%16s%16s%n", getId(), getName(), getEmail());
+        //return getId()+ " - " +getName()+" - "+getEmail();
     }
 
     /*@Override

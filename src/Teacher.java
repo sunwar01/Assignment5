@@ -15,9 +15,21 @@ public class Teacher extends Person {
 
     }
 
+    public String getInitials() {
+        return this.initials;
+    }
+
+    public String getMain() {
+        return this.main;
+    }
+
+
     @Override
     public String toString(){
-        return "\n"+id+" - "+name+" - "+mail+" - "+initials+" - "+main+"\n";
+
+        return String.format("%1s%16s%16s%16s%16s%n", getId(), getName(), getEmail(), getInitials(), getMain());
+
+
     }
 
 
