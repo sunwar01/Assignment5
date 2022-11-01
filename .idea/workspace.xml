@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7808ccaf-273e-467b-ab1f-3879b408429a" name="Changes" comment="v0.1">
+    <list default="true" id="7808ccaf-273e-467b-ab1f-3879b408429a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GradeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GradeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+    </list>
+    <list id="a17938ad-1db2-4da8-ad3c-dba095758c00" name="Changes by lasse" comment="" />
+    <list id="18a06d9d-c242-4312-802b-dc76fcf495d3" name="Changes by Pernille" comment="">
+      <change beforePath="$PROJECT_DIR$/src/PersonsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +32,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/Student.java">
+      <ranges>
+        <range start1="0" end1="0" start2="0" end2="2" changelist="18a06d9d-c242-4312-802b-dc76fcf495d3" />
+        <range start1="1" end1="2" start2="3" end2="4" changelist="18a06d9d-c242-4312-802b-dc76fcf495d3" />
+        <range start1="3" end1="4" start2="5" end2="7" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="6" end1="7" start2="9" end2="21" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="10" end1="11" start2="24" end2="28" changelist="18a06d9d-c242-4312-802b-dc76fcf495d3" />
+        <range start1="19" end1="20" start2="36" end2="37" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="23" end1="23" start2="40" end2="51" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/Test.java">
+      <ranges>
+        <range start1="0" end1="0" start2="0" end2="2" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="5" end1="5" start2="7" end2="9" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="59" end1="61" start2="63" end2="65" changelist="18a06d9d-c242-4312-802b-dc76fcf495d3" />
+        <range start1="72" end1="72" start2="76" end2="77" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -33,7 +60,6 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2Gkyj1u7rSjrm7KdUfHWVOdUHkf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,7 +72,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/warnc/OneDrive - Erhvervsakademi Sydvest/SCO1/Intelli/chapter 5 opgaver/opgave511"
+    "last_opened_file_path": "C:/Users/SW/Desktop/ComputerSciencePracticeTest"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,29 +84,6 @@
       <option name="presentableId" value="Default" />
       <updated>1666947024861</updated>
     </task>
-    <task id="LOCAL-00001" summary="v0.1">
-      <created>1667223542528</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1667223542528</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="v0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.1" />
   </component>
 </project>

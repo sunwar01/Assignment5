@@ -1,7 +1,11 @@
+
+
 import java.util.LinkedList;
 
 
 public class Test {
+
+
 
     public static void listTest(){
 
@@ -70,6 +74,7 @@ public class Test {
         for (Student student : Studentlist) {
             System.out.println(student);
         }
+
 
 
     }
