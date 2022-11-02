@@ -1,34 +1,51 @@
+import java.util.LinkedList;
+
 public class Teacher extends Person {
+
+
+    private LinkedList<String> subjects = new LinkedList<>();
 
     private String initials;
 
+    private double salary;
     private String main;
 
 
-
-    public Teacher(int id, String name, String mail, String initials, String main) {
+    public Teacher(int id, String name, String mail, String initials) {
         super(id, name, mail);
 
         this.initials = initials;
-        this.main = main;
 
 
+
+    }
+
+    public LinkedList<String> getSubjects(){
+        return subjects;
+    }
+
+    public void addSubject(String subject){
+        subjects.add(subject);
     }
 
     public String getInitials() {
         return this.initials;
     }
 
-    public String getMain() {
-        return this.main;
+    public double getSalary(){
+        return salary;
     }
+
+    public void setSalary(double salary){
+        this.salary = salary;
+    }
+
 
 
     @Override
     public String toString(){
 
-        return String.format("%1s%16s%16s%16s%16s%n", getId(), getName(), getEmail(), getInitials(), getMain());
-
+        return super.toString() +  initials + subjects.get(0);
 
     }
 

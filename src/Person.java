@@ -1,7 +1,7 @@
-public class Person {
-    int id;
-    String name;
-    String mail;
+public  class Person {
+    private final int id;
+    private String name;
+    private String mail;
 
 
     
@@ -14,38 +14,43 @@ public class Person {
     }
 
 
-    public String getName() {
-        return this.name;
+    public int getId() {
+        return id;
     }
 
-    public int getId() {
-        return this.id;
+    public String getName() {
+        return name;
     }
 
     public String getEmail() {
-        return this.mail;
+        return mail;
     }
+
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setEmail(String email) {
+    public void setEmail(String mail) {
         this.mail = mail;
     }
 
-    @Override
+
     public String toString(){
 
-        return String.format("%1s%16s%16s%n", getId(), getName(), getEmail());
-        //return getId()+ " - " +getName()+" - "+getEmail();
+        return  id + name + mail;
+
     }
 
-    /*@Override
-     public  String toString() {
-        return super.toString();*/
+    @Override
+     public  boolean equals(Object obj) {
+        Person thatPerson = (Person) obj;
 
+        if (thatPerson.getId() == this.getId())
+            return true;
+        else return false;
 
+    }
 }
 
 

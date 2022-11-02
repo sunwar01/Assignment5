@@ -5,41 +5,28 @@ public class GradeInfo {
     private int grade;
     private String subject;
 
-    public GradeInfo(String subject, int grade) {
+    public GradeInfo(int grade, String subject) {
 
-        this.subject = subject;
         this.grade = grade;
+        this.subject = subject;
 
+    }
+
+
+    public int getGrade() {
+        return grade;
     }
 
     public String getSubject() {
-        return this.subject;
+        return subject;
     }
-
-    public int getGrade() {
-        return this.grade;
-    }
-
-    public static void gradeListInfo(){
-
-
-
-
-
-
-
-
-    }
-
-
-
 
 
     @Override
-    public String toString(){
-        return String.format("%1s%n", getGrade());
+    public String toString() {
+
+        return "grade: " + grade + "subject: " + subject;
     }
 
 
-    // ved ikke lige hvordan vi skal få det her implementeret?
 }

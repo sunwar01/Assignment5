@@ -1,22 +1,9 @@
 public class Student extends Person{
-
-    String education;
-    Double avgGrade;
-
+  private LinkedList<GradeInfo> gradeReportList = new LinkedList<>();
+    private String education;
 
 
-
-    public double getAvgOfGrades(){
-        double sum = 0;
-        for (int i=0; i< gradeInfoList.size(); i++) {
-            sum += gradeInfoList.get(i).getGrade();
-        }
-        return sum / gradeInfoList.size();
-    }
-
-
-
-    public Student(int id, String name, String mail, String education, Double avgGrade) {
+    public Student(int id, String name, String mail, String education) {
         super(id, name, mail);
 
         this.education = education;
@@ -25,29 +12,38 @@ public class Student extends Person{
     }
 
 
+    public double getAverageGrade(){
+
+        double sum = 0;
+        for(GradeInfo gi : gradeReportList){
+            sum += gi.getGrade();
+        }
+        return sum/gradeReportList.size();
+    }
+
+    public int getGrade(String subject){
+        for (GradeInfo gi : gradeReportList){
+            if(gi.getSubject().equals(subject))
+                return gi.getGrade();
+        }
+        throw new RuntimeException("No such subject");
+    }
+
+    public void addGrade(GradeInfo gradeInfo){
+        gradeReportList.add(gradeInfo);
+    }
+
     public String getEducation() {
         return this.education;
     }
 
-    public Double getAvgGrade() {
-        return this.avgGrade;
+    public LinkedList<GradeInfo> getGradeReportList() {
+        return gradeReportList;
     }
-
-
-    public int getGrade(int g, String subject){
-
-        GradeInfo gr = new GradeInfo(subject, g);
-
-        gradeInfoList.add(gr);
-
-        return g; //?????????
-
-    }
-
 
     @Override
     public String toString(){
-        return String.format("%1s%16s%16s%16s%16s%n", getId(), getName(), getEmail(), getEducation(), getAvgGrade());
+        return super.toString() + education + getAverageGrade();
     }
 
 }

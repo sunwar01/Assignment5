@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7808ccaf-273e-467b-ab1f-3879b408429a" name="Changes" comment="">
+    <list default="true" id="7808ccaf-273e-467b-ab1f-3879b408429a" name="Changes" comment="v0.3">
+      <change afterPath="$PROJECT_DIR$/src/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GradeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GradeInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <list id="a17938ad-1db2-4da8-ad3c-dba095758c00" name="Changes by lasse" comment="" />
@@ -33,23 +39,37 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/Test.java">
+      <ranges>
+        <range start1="9" end1="10" start2="9" end2="18" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="16" end1="17" start2="24" end2="24" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="22" end1="25" start2="29" end2="30" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="26" end1="26" start2="31" end2="34" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="27" end1="29" start2="35" end2="35" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="31" end1="34" start2="37" end2="38" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="40" end1="41" start2="44" end2="50" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="42" end1="44" start2="51" end2="53" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="46" end1="48" start2="55" end2="55" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="49" end1="51" start2="56" end2="56" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="52" end1="55" start2="57" end2="57" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="60" end1="62" start2="62" end2="62" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="63" end1="65" start2="63" end2="72" changelist="18a06d9d-c242-4312-802b-dc76fcf495d3" />
+        <range start1="67" end1="69" start2="74" end2="80" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="70" end1="72" start2="81" end2="81" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="73" end1="76" start2="82" end2="84" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+      </ranges>
+    </file>
     <file path="$PROJECT_DIR$/src/Student.java">
       <ranges>
         <range start1="0" end1="0" start2="0" end2="2" changelist="18a06d9d-c242-4312-802b-dc76fcf495d3" />
-        <range start1="1" end1="2" start2="3" end2="4" changelist="18a06d9d-c242-4312-802b-dc76fcf495d3" />
-        <range start1="3" end1="4" start2="5" end2="7" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
-        <range start1="6" end1="7" start2="9" end2="21" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
-        <range start1="10" end1="11" start2="24" end2="28" changelist="18a06d9d-c242-4312-802b-dc76fcf495d3" />
-        <range start1="19" end1="20" start2="36" end2="37" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
-        <range start1="23" end1="23" start2="40" end2="51" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/Test.java">
-      <ranges>
-        <range start1="0" end1="0" start2="0" end2="2" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
-        <range start1="5" end1="5" start2="7" end2="9" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
-        <range start1="59" end1="61" start2="63" end2="65" changelist="18a06d9d-c242-4312-802b-dc76fcf495d3" />
-        <range start1="72" end1="72" start2="76" end2="77" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="1" end1="7" start2="3" end2="5" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="8" end1="15" start2="6" end2="6" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="16" end1="19" start2="7" end2="8" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="22" end1="24" start2="11" end2="11" changelist="18a06d9d-c242-4312-802b-dc76fcf495d3" />
+        <range start1="27" end1="27" start2="14" end2="35" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="31" end1="33" start2="39" end2="41" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="34" end1="46" start2="42" end2="42" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
+        <range start1="49" end1="50" start2="45" end2="46" changelist="7808ccaf-273e-467b-ab1f-3879b408429a" />
       </ranges>
     </file>
   </component>
@@ -72,9 +92,27 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/SW/Desktop/ComputerSciencePracticeTest"
+    "last_opened_file_path": "C:/Users/SW/Desktop/ComputerSciencePracticeTest",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Assignment 5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,6 +122,29 @@
       <option name="presentableId" value="Default" />
       <updated>1666947024861</updated>
     </task>
+    <task id="LOCAL-00001" summary="v0.3">
+      <created>1667303197114</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667303197115</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.3" />
   </component>
 </project>
